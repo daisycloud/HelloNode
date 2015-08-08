@@ -19,7 +19,7 @@ var express = require('express')
   , app = express();
 
 
-// mongoose.connect(config.db.mongodb);
+  mongoose.connect(config.db.mongodb);
 
 // 环境变量 view engine setup
 app.set('views', path.join(__dirname, 'views'));
